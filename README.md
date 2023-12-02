@@ -1,5 +1,5 @@
 # multiTargetMicroscopy
-A high resolution automated microscope that can monitor multiple targets like for instance 10 Petri dishes
+A high resolution automated microscope that can monitor multiple targets like for instance 10 Petri dishes.
 
 Project started during the Delft open hardware course called Open Hardware Academy
 
