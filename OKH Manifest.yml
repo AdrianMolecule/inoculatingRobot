@@ -1,13 +1,8 @@
-title: Multi target microscopy
-description: A high resolution automated microscope that can monitor multiple targets like
-  for instance 10 Petri dishes
+title: Inoculating Robot
+description:  A pipetting Robot that uses an inoculating loop to inoculate cells on media.
 intended-use: |-
-  Used to take high resolution images or videos of targets.
-  The targets could be any small areas that need to be analyzed.
-  Initial use is to analyze and compare cells placed in ten Petri dishes. 
-  It can be used to optimize production of biologics
-  It can be used to analyze response to antibiotics like in a AST assay.
-project-link: https://github.com/AdrianMolecule/multiTargetMicroscopy
+  CUlture cells in Petri dishes.
+project-link: https://github.com/AdrianMolecule/inoculatingRobot
 made: false
 made-independently: false
 license:
@@ -18,5 +13,5 @@ okh-manifest-version: 1.0.0
 date-updated: 2023-12-02
 manifest-author:
   name: Adrian F
-  affiliation: Ottawa Bio
-  email: tada@specyal.com
+  affiliation: Ottawa BioSci
+  email: openbioscience@gmail.com
