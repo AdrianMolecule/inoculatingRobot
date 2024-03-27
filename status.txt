@@ -1,11 +1,1 @@
-Project is started.
-The high resolution build of the OpenFlexure part is about 80% completed. https://openflexure.org/projects/microscope/build
-Some ordered parts did not arrive yet so one axis movement is not possbile yet. That is not a problemfor testing as the movement can be done via the CNC motor.
-The sample holders design is done for the Petri Dish plate holder - should be available under models
-The attachment to the bed is not started yet not completed
-The CNC is present and modification started
-The assemble could be verified manually by running a specific Gcode that scans the plates one by one however there is no connection between the microscope electronics and CNC
-Still TODO
-The bracket that mounts the microscope to the spindle holder has not been designed
-The new CNC board software has not been customized
-The new CNC board software has not been extended to connect to the microscope electronics
+Project is functional. The cost is <250$
