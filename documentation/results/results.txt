@@ -1,1 +1,4 @@
-
+These are pictures of the Petri dishes during and after the inoculation and incubation when colonies grew larger.
+The cells were fuGFP so fluorescent protein.
+You can seemore than 130 points with no overlap of colonies.
+The incubation was for 8 hours at 37 Celsius. The actual images look better in reality than in the picture.
