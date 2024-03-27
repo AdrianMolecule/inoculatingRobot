@@ -6,6 +6,10 @@ Cellular Leaf: https://drive.google.com/file/d/18wSzhuMMJFmsK8t1lpt_-yD1knkCLvlB
 
 
 Please read carefully the info below. While the project is straightforward, this will make your experience more pleasant.
+The models folder holds the models for the head parts and the bed parts.
+The base folder holds most images.
+The results folder holds pictures of inoculated Petri dishes.
+
 In principle you will 3d print and either CNC or laser cut a couple of boards. Then you will install the two loop holder parts and the two bed parts on the CNC machine. After that, you place the labware including the one you 3d print and  execute the labRobot software that produce a gcodefile. You will load that in a software that is used for the machine (Candle) and that's it.
 I added a video of the machine in action and all the files including modifiable moldel files which you will need Only if you want to customize things. Fusion360 still has a free limited license.
 There is no explicit BOM: just 8 screws and nuts (4 for attaching the bed overlay and 4 for the loop holder) and a 3018 CNC machine.
@@ -58,9 +62,9 @@ It's good to test with something simple as a big plus sign that put a drop in th
 In order to 'draw/inoculate something' you need a file with the dots saved in a x, y 'Python format".
 The subdirectory called /images contain some code like imageToDotsArrayNoFiles.py to take a file and produce an outline and an array of dots. You can change the block size to get dots within the -40 and +40 for the dots. The dots are relative to the center of the Petri dish which is about  -  diameter = 84.8 mm interior diameter (see adUtil.py/createPetri... if you want to change it which should not be necessary. You don't need that directory if you want to produce the array using other means. You cen use the existing samples to start.
 
-It's OK to stab the agar but it's even better if you just touch the surface. You will see the liquid held in the eye of the loop sucked in the media when the loop touches the surface. 
-To my surprise, I managed to achieve it from the first try. It's possible the agar surface is not horizontal so it might not touchdown in some cases. Don't worry. Change the calibrationMediaHeight with a lower value and re-run the program over the same plate.
-I used GFP in the MarpleLeaf.
+It's OK to stab the agar or just touch the surface. For art a stab will create crispier points because the liquid stays in the small hole. You will see the liquid held in the eye of the loop sucked in the media when the loop touches the surface. 
+To my surprise, I managed to achieve perfect touchdowns from the first try. It's possible the agar surface is not horizontal so it might not touchdown in some cases. Don't worry. Change the calibrationMediaHeight with a lower value and re-run the program over the same plate.
+I used  a super folded GFP in the MarpleLeaf.
 My first try was with about 150 points and it lasted about 1 hour. If you change the value of safe_z to a lower value and the allocation of the source well to a closer one you should be able to cut that down to 30 min.
 I 'flame' my loop directly in the machine. If you don't have a loop check out our web at specyal.com on how to make one based on another article by this great guy Alex.
 The CNC machine is "as it was in the box". I payed about 200 US$ for it. There are kits to extend x and y and maybe z. The system would run on a different machine but some elements will probably need redesign. I might add some auto zero limit switches.
@@ -71,3 +75,8 @@ Should the community like it, I will continue adding features. My main interest 
 
 I hope to add a microscope to it. Most likely based on OpenFlexure.
 The documentation for the microscope part of the project can be found at https://openflexure.org/projects/microscope/build
+
+Other possible usages:
+Besides inoculation, the robot can be used to create points on paper for cheap sensors using cell-free lysates or other methods.
+Maybe also for Antibiotic Sussceptibility Tests (AST).
+It could also be used to create paper shipping dots.
