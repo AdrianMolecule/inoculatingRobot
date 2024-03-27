@@ -1,5 +1,9 @@
 This repository is just for documentation. 
 The software is stored at https://github.com/AdrianMolecule/labRobot
+The movies are at
+Cellular Mammoth: https://drive.google.com/file/d/1AFmfaFm3UuAPwcy_cuPo2LcFZmnuJ3OE/view?usp=drive_link
+Cellular Leaf: https://drive.google.com/file/d/18wSzhuMMJFmsK8t1lpt_-yD1knkCLvlB/view?usp=drive_link
+
 
 Please read carefully the info below. While the project is straightforward, this will make your experience more pleasant.
 In principle you will 3d print and either CNC or laser cut a couple of boards. Then you will install the two loop holder parts and the two bed parts on the CNC machine. After that, you place the labware including the one you 3d print and  execute the labRobot software that produce a gcodefile. You will load that in a software that is used for the machine (Candle) and that's it.
