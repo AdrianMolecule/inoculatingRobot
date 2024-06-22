@@ -1,5 +1,5 @@
 This repository is just for documentation. 
-The software is stored at https://github.com/AdrianMolecule/labRobot
+The software code is stored at https://github.com/AdrianMolecule/labRobot as it's too complicated to put both in one repository.
 The movies are:
 Hi Res Cellular Leaf: https://drive.google.com/file/d/1BTx-P7F2dU0esMkg9szmRZTBShIUq02r/view?usp=drive_link
 Cellular Mammoth: https://drive.google.com/file/d/1AFmfaFm3UuAPwcy_cuPo2LcFZmnuJ3OE/view?usp=drive_link
