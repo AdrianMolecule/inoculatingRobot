@@ -1,4 +1,5 @@
-This repository is just for documentation. 
+This project is complete, functional, stabile and has been tested. No immediate plans to change and no outstanding bugs.
+This repository is just for documentation and 3D models. 
 The software code is stored at https://github.com/AdrianMolecule/inoculatingRobotSoftware as it's too complicated to put both in one repository.
 The movies are:
 Hi Res Cellular Leaf: https://drive.google.com/file/d/1BTx-P7F2dU0esMkg9szmRZTBShIUq02r/view?usp=drive_link
