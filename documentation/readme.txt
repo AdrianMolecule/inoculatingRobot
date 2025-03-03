@@ -46,7 +46,8 @@ The slots are same size as Opentrons's slots (slotSizeX=127.76; slotSizeY=85.48 
 My code is only several files, all under labRobot in GitHub. Just copy them in a local directory, make sure pylabrobot is installed and start. Code places where you need (media  z distance) or might want to make adjustments are tagged with "#change here, so do a search for that string in the code.
 The start point file is start.py. There are unused files that might be useful so only the files referred from start.py are mandatory.
 The generated gcode file is called gcode.txt and that is what you load in Candle.
-I have more instruction in a document I used for the MIT-HTGAA lab that used this. https://docs.google.com/document/d/1dSk5jPiO8d7NHl10SIn5xxS07HtXvoc7e2chjyo0toI/edit?tab=t.0
+I have more instruction in a document I used for the MIT-HTGAA lab that used this document. https://docs.google.com/document/d/1dSk5jPiO8d7NHl10SIn5xxS07HtXvoc7e2chjyo0toI/edit?tab=t.0
+Please be aware that Windows users can now use directly the Windows executables for image conversion and labRobot.exe present under the 2 dist directories. Please read more info in the software github project.
 
 
 As per industrial robots you need a general calibration and sometimes an experiment specific calibration.
