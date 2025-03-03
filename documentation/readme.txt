@@ -1,3 +1,8 @@
+GitHub is bad at writing documents so I put it all in a GoogleDoc here:
+https://docs.google.com/document/d/1a7N-FTK_ySVC49T5_tWsRMAnd7dVDWdaGFkPmi9x7vw/edit?usp=sharing
+
+Below is just old mispelt and obsolete text just in case the other doc gets damaged.
+
 This project is complete, functional, stabile and has been tested. No immediate plans to change and no outstanding bugs.
 This repository is just for documentation and 3D models. 
 The software code is stored at https://github.com/AdrianMolecule/inoculatingRobotSoftware as it's too complicated to put both in one repository.
@@ -13,6 +18,7 @@ The base folder holds most images.
 The results folder holds pictures of inoculated Petri dishes.
 
 In principle you will 3d print and either CNC or laser cut a couple of boards. Then you will install the two loop holder parts and the two bed parts on the CNC machine. After that, you place the labware including the one you 3d print and  execute the labRobot software that produce a gcodefile. You will load that in a software that is used for the machine (Candle) and that's it.
+In Candle first go to 
 I added a video of the machine in action and all the files including modifiable moldel files which you will need Only if you want to customize things. Fusion360 still has a free limited license.
 There is no explicit BOM: just 8 screws and nuts (4 for attaching the bed overlay and 4 for the loop holder) and a 3018 CNC machine.
 Watch first the video to get the overall picture. Then, look at the picturesfor more detail. Then print the 2 head parts and cut the 2 bed parts.
